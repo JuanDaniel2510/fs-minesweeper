@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <script defer src="./js/scripts.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="title"></div>
+    <div id="minesweeper" oncontextmenu="return false;">
+    <div id="header">
+        <div id="minecounter">
+        <div class="digit1"></div>
+        <div class="digit2"></div>
+        <div class="digit3"></div>
+        </div>
+        <div id="face"></div>
+        <div id="timer">
+        <div class="digit1"></div>
+        <div class="digit2"></div>
+        <div class="digit3"></div>
+        </div>
+    </div>
+    <div id="minefield">
+        <form>
+        <input type="radio" name="difficulty" id="Preset1" checked="checked" />Beginner
+        <br/>
+        <input type="radio" name="difficulty" id="Preset2" />Intermediate
+        <br/>
+        <input type="radio" name="difficulty" id="Preset3" />Expert
+        <br/>
+        <input type="radio" name="difficulty" id="Custom" />Custom
+        <br/>
+        <div class="nInput">Width:
+            <input type="number" min="8" max="32" value="8" class="custom" id="customWidth" disabled>
+        </div>
+        <div class="nInput">Height:
+            <input type="number" min="8" max="32" value="8" class="custom" id="customHeight" disabled>
+        </div>
+        <div class="nInput">Mines:
+            <input type="number" min="10" max="1024" value="10" class="custom" id="customNMines" disabled>
+        </div>
+        <input id="play" type="submit" value="Play"/>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

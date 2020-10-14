@@ -1,0 +1,119 @@
+body {
+  width: 700px;
+  margin: 16px auto;
+  background-color: black;
+}
+
+.nInput {
+  margin: 8px 0 0 4px;
+}
+
+.custom {
+  width: 64px;
+  margin: -2px 4px;
+  float: right;
+}
+
+#play {
+  width: 64px;
+  margin: 8px 32px;
+}
+
+#title {
+  width: 689px;
+  height: 353px;
+  margin: 0 auto;
+  background-image: url("../assets/img/header.png");
+}
+
+#minesweeper {
+  width: 160px;
+  height: 277px;
+  margin: 32px auto 0 auto;
+}
+
+#header {
+  width: 128px;
+  height: 37px;
+  background-color: #c0c0c0;
+  border: 16px solid #c0c0c0;
+  border-bottom-width: 8px;
+  border-image: url("../assets/img/borderTop.png") 11 12 6 11 repeat;
+}
+
+#minecounter > div,
+#timer > div {
+  width: 11px;
+  height: 21px;
+  background-image: url("../assets/img/textures.png");
+  background-position: 0 -33px;
+  float: left;
+}
+
+.digit1 {
+  position: relative;
+  left: 2px;
+  top: 2px;
+}
+
+.digit2 {
+  position: relative;
+  left: 4px;
+  top: 2px;
+}
+
+.digit3 {
+  position: relative;
+  left: 6px;
+  top: 2px;
+}
+
+#minecounter {
+  width: 41px;
+  height: 25px;
+  background-image: url("../assets/img/textures.png");
+  background-position: -28px -82px;
+  margin: 6px 0 6px 4px;
+  display: inline-block;
+  float: left;
+}
+
+#face {
+  width: 26px;
+  height: 26px;
+  background-image: url("../assets/img/textures.png");
+  background-position: 0 -55px;
+  margin: 5px auto 6px auto;
+  display: inline-block;
+  transform: translateX(6px);
+}
+
+#timer {
+  width: 41px;
+  height: 25px;
+  background-image: url("../assets/img/textures.png");
+  background-position: -28px -82px;
+  margin: 6px 4px 6px 0;
+  display: inline-block;
+  float: right;
+}
+
+#minefield {
+  width: 128px;
+  height: 192px;
+  border: 16px solid #000;
+  border-top-width: 8px;
+  border-image: url("../assets/img/boderBottom.png") 5 12 12 11 repeat;
+  background-color: #c0c0c0;
+}
+
+.box {
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  background-image: url("../assets/img/textures.png");
+  background-position: 0 -16px;
+  cursor: default;
+  text-align: center;
+  float: left;
+}
