@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "parcel build src/index.html -d build --public-url /fs-bingo",
+    "build": "parcel build src/index.html -d build --public-url /fs-minesweeper",
     "deploy": "gh-pages -d build",
-    "launch": "npm run clean && parcel build src/index.html -d build --public-url /fs-bingo && gh-pages -d build",
+    "launch": "npm run clean && parcel build src/index.html -d build --public-url /fs-minesweeper && gh-pages -d build",
     "clean": "rm -rf dist build .cahe"
   },
   "repository": {
